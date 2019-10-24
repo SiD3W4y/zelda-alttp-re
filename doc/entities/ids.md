@@ -23,6 +23,6 @@
 | 0xe2 | 10 arrows             |
 | 0xe3 | Fairy                 |
 | 0xe4 | Small key             |
-| 0xe5 | Boos key              |
+| 0xe5 | Boss key              |
 | 0xea | Piece of heart        |
 | 0xeb | Piece of heart        |
