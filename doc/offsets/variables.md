@@ -6,6 +6,8 @@
 | 0x200234c | u8 | Heart containers (max = 0xa0) |
 | 0x200234e | u8 | Current magic (max = 0x80) |
 | 0x2002340 | u16 | Rupees |
+| 0x2002323 | u8 | Bombs |
+| 0x2002357 | u8 | Arrows |
 | 0x30038f0 | u16 | Link y pos (0) |
 | 0x30038f4 | u16 | Link x pos (0) |
 | 0x3003102 | u8[16] | Entity y - low byte |
