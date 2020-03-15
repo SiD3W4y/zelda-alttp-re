@@ -14,6 +14,7 @@ void showpos_entry(void)
     itot(link_y_pos, (uint16_t*)Y_POS_BUF);
 }
 
+// Converts int to printable chars
 static void itot(uint16_t in, uint16_t* result)
 {
     result = result + 3;
@@ -22,6 +23,9 @@ static void itot(uint16_t in, uint16_t* result)
     {
         uint16_t num = in % 10;
         in /= 10;
+
+        // Each entry of result is 16bits and represent a sprite index
+        // 0x90 is the sprite index for '0'
         *result = 0x90 | num;
         result--;
     }
